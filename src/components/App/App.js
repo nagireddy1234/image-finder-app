@@ -1,9 +1,9 @@
-import React from "react"
-import ImageList from "../ImageList/ImageList"
-import ImageSearch from "../ImageSearch/ImageSearch"
-import {API_TOKEN} from '../../utils'
+import React from "react";
+import ImageList from "../ImageList/ImageList";
+import ImageSearch from "../ImageSearch/ImageSearch";
+require('dotenv').config()
 
-// console.log(process.env.REACT_APP_API_TOKEN)
+const API_TOKEN = process.env.REACT_APP_API_KEY;
 
 class App extends React.Component {
 
