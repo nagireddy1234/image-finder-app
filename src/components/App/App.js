@@ -1,7 +1,7 @@
 import React from "react";
 import ImageList from "../ImageList/ImageList";
 import ImageSearch from "../ImageSearch/ImageSearch";
-require('dotenv').config()
+require('dotenv').config();
 
 const API_TOKEN = process.env.REACT_APP_API_KEY;
 
